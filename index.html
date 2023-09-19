@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Weather Central</title>
+</head>
+
+<body class="flex-column min-100-vh">
+  <header class="hero">
+    <h1 class="app-title">
+      <i class="fab fa-WD"></i> Weather Dashboard
+    </h1>
+    <i>
+      Search for a city and find out the temperature, wind, and humidity, as well as a 5 day forecast!
+    </i>
+  </header>
+
+
+  <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-2" id="divLeft">
+
+      <div class="card">
+        <h3 class="card-header">Search for a city</h3>
+        <form id="city-form" class="card-body">
+          <label class="form-label" for="cityName">City</label>
+          <input name="cityName" id="cityName" type="text" autofocus="true" class="form-input" />
+          <button type="submit" class="btn">Get Weather</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3 class="card-header">Cities</h3>
+        <div id="city-buttons" class="card-body">
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-10" id="divRight">
+      <h2 id="weather-name" class="subtitle">Showing Weather Report for: <span id="city-search-term"></span></h2>
+      <div id="weather-container" class="list-group"></div>
+      <hr>
+      
+      <h2> 5 Day Forecast: </h2>
+
+      <div id="forecast-container"> 
+      <div id="row" class="row">
+        <div id="col" class="column">
+          <div id="card" class="card">
+            <h3 id="date1">Date</h3>
+            <p id="icon1">-</p>
+            <p id="temp1">Temperature</p>
+            <p id="wind1">Wind speed</p>
+            <p id="hum1">Humidity</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3 id="date2">Date</h3>
+          <p id="icon2">-</p>
+          <p id="temp2">Temperature</p>
+          <p id="wind2">Wind Speed</p>
+          <p id="hum2">Humidity</p>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3 id="date3">Date</h3>
+            <p id="icon3">-</p>
+            <p id="temp3">Temperature</p>
+            <p id="wind3">Wind Speed</p>
+            <p id="hum3">Humidity</p>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <h3 id="date4">Date</h3>
+              <p id="icon4">-</p>
+              <p id="temp4">Temperature</p>
+              <p id="wind4">Wind Speed</p>
+              <p id="hum4">Humidity</p>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <h3 id="date5">Date</h3>
+                <p id="icon5">-</p>
+                <p id="temp5">Temperature</p>
+                <p id="wind5">Wind Speed</p>
+                <p id="hum5">Humidity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
