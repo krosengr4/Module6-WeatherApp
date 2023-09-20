@@ -283,7 +283,7 @@ buildCityList();
 displayButtons();
 
 // Displays the current and future conditions of the last visited city when the application is reopened. 
-if (cityDataArr) {
+if (cityDataArr.length != 0) {
     getCity(cityDataArr[0]);
 }else{ getCity("Austin")};
 
