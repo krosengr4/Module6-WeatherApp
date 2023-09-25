@@ -1,4 +1,4 @@
-# Description of my Weather Dashboard App:
+# My Weather Dashboard App:
 On this application, the user will get the current weather as well as a 5 day forecast of the city the user types in.
 
 For the current weather, the user will get the temperature(in farenheight), wind speed(MPH), and humidity(%).
