@@ -10,7 +10,7 @@ The list of cities will be save if the user closes out of the application, and w
 When the user loads into the application, the current and future conditions will display for the last city that the user searched for.
 
 # Deployed Application
-[Click here for The Deployed Application!](https://krosengr4.github.io/Module6-WeatherApp/) 
+[Click here for The Deployed Application!](https://krosengr4.github.io/Weather-Dashboard/) 
 
 # Picture of Application 
 ![image](https://github.com/krosengr4/Module6-WeatherApp/assets/139993281/f6cb545c-3bac-4243-8779-3175a7f27b8e)
