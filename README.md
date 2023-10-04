@@ -33,7 +33,7 @@ To Use the Application:
 6) If there are no recent cities, the application will display weather data for Austin, Texas when application is opened.  
 
 ## Deployed Application
-- [Click here for the Deployed Application](https://krosengr4.github.io/Module6-WeatherApp/)
+- [Click here for the Deployed Application](https://krosengr4.github.io/Weather-Dashboard/)
 
 ## Images
 ![image](https://github.com/krosengr4/Module6-WeatherApp/assets/139993281/f6cb545c-3bac-4243-8779-3175a7f27b8e)
