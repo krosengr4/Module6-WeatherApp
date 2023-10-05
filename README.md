@@ -16,7 +16,7 @@
 - In the Weather Dashboard application, you can get the current weather as well as a 5 day forecast of a city. 
 
 - For the current weather, the data displayed includes the temperature(degrees farenheight), wind speed(MPH), and humidity(%).
-- For the five day forecast, the data displayed includes the data for the current weather, as well as the date and an emoji to represent the   weather conditions.
+- For the five day forecast, the data displayed includes the data for the current weather, as well as the date and an emoji to represent the weather conditions.
 
 - The application will also build and save the five most recent cities that the user has visited as buttons.
 
